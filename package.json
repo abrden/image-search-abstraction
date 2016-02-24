@@ -1,0 +1,28 @@
+{
+  "name": "img-search",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp API Project: Image search abstraction layer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrden/image-search-abstraction.git"
+  },
+  "keywords": [
+    "API",
+    "abrden",
+    "image",
+    "search",
+    "abstraction",
+    "layer"
+  ],
+  "author": "Agustina (abrden) Barbetta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrden/image-search-abstraction/issues"
+  },
+  "homepage": "https://github.com/abrden/image-search-abstraction#readme"
+}
