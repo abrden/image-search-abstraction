@@ -7,7 +7,7 @@
 - [ ] I can get a list of the most recently submitted search strings.
 
 ## Example usage
-`https://.herokuapp.com/lolcats%20funny?offset=10`<br>
+`https://.herokuapp.com/imgsearch/lolcats%20funny?offset=10`<br>
 `https://.herokuapp.com/latest`
 
 ## Example output
