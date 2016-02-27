@@ -7,12 +7,12 @@
 - [x] I can get a list of the most recently submitted search strings.
 
 ## Example usage
-To search for 'millenium falcon' images try `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon`<br>
-You can get 5 results by adding '?offset=5' like `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon?offset=5`<br>
-To see the last 10 searches go to `https://abrden-bing-search.herokuapp.com/latest`
+* To search for `millenium falcon` images try `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon`.<br>
+* You can get 5 results by adding `?offset=5` like `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon?offset=5`.<br>
+* To see the last 10 searches go to `https://abrden-bing-search.herokuapp.com/latest`.
 
 ## Example output
-Output for the image results
+* Output for the image sresults
 ```javascript
   [ { url: 'http://...',
       snippet: '...',
@@ -23,7 +23,7 @@ Output for the image results
   ]
 ```
 
-Output for the most recent searches
+* Output for the most recent searches
 ```javascript
   [ { term: '...',
       when: '...'
