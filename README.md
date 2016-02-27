@@ -7,8 +7,8 @@
 - [x] I can get a list of the most recently submitted search strings.
 
 ## Example usage
-* To search for `millenium falcon` images try `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon`.<br>
-* You can get 5 results by adding `?offset=5` like `https://abrden-bing-search.herokuapp.com/imgsearch/millenium falcon?offset=5`.<br>
+* To search for `millennium falcon` images try `https://abrden-bing-search.herokuapp.com/imgsearch/millennium falcon`.<br>
+* You can get 5 results by adding `?offset=5` like `https://abrden-bing-search.herokuapp.com/imgsearch/millennium falcon?offset=5`.<br>
 * To see the last 10 searches go to `https://abrden-bing-search.herokuapp.com/latest`.
 
 ## Example output
