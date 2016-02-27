@@ -28,7 +28,6 @@
   "dependencies": {
     "bing.search": "^1.0.1",
     "express": "^4.13.4",
-    "mongodb": "^2.1.7",
     "mongoose": "^4.4.5"
   }
 }
