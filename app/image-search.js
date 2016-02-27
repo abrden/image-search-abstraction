@@ -1,10 +1,10 @@
 'use strict';
 
-module.exports = function (app, db) {
+module.exports = function (app, History) {
     
     app.get('/imgsearch/:search', function(req, res){
         var query = req.params.search;
-        var length = req.query.offset;
+        var length = req.query.offset || 10;
         
         saveQuery(query);
         search(query, length, res);
@@ -12,10 +12,12 @@ module.exports = function (app, db) {
     });
     
     function saveQuery(query) {
-        db.collection('searchs').save({
+        var history = new History({
             'term': query,
             'when': new Date().toLocaleString()
-        }, function(err, data) {
+        });
+        
+        history.save(function(err, data) {
             if (err) throw err;
             console.log('Saved');
         });
