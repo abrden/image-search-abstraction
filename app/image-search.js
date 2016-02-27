@@ -25,7 +25,7 @@ module.exports = function (app, History) {
     
     function search(query, length, res) {
         var Search = require('bing.search');
-        var search = new Search('0KwHSJZRm3TIscTImCsk7cOADx2FfS8N1MdlsuRorcE');
+        var search = new Search(process.env.API_KEY);
 
         search.images(
             query,
