@@ -32,9 +32,18 @@ module.exports = function (app, History) {
             { top: length },
             function(err, results) {
                 if (err) throw err;
-                res.json(results);
+                res.json(results.map(imageObject));
             }
         );
+    }
+    
+    function imageObject(image) {
+        return {
+            'url': image.url,
+            'snippet': image.title,
+            'thumbnail': image.thumbnail.url,
+            'context': image.sourceUrl
+        };
     }
     
 };
